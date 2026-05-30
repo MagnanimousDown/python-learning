@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    {% if is_logged_in %}
+        <h1>Welcome back!</h1>
+    {% else %}
+        <h1>Please login.</h1>
+    {% endif %}
+</body>
+</html>
